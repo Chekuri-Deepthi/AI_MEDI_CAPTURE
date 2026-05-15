@@ -248,6 +248,4 @@ PyTorch
 Hugging Face Transformers
 Tesseract OCR
 FHIR Standards
-⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
