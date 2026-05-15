@@ -90,122 +90,156 @@ ai_ocr_emr_project/
 ├── README.md
 └── .env
 
-⚙️ Installation Guide
-1️⃣ Clone Repository
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
-unknown
-2 lines, 91 characters
-Copy code
-unknown
-2 lines, 91 characters
-Copy code
-2️⃣ Backend Setup
-Install Dependencies
+```
+
+---
+
+# 2️⃣ Backend Setup
+
+## Install Dependencies
+
+```bash
 cd backend_ai
 pip install -r requirements.txt
-unknown
-2 lines, 45 characters
-Copy code
-unknown
-2 lines, 45 characters
-Copy code
-Run Backend Server
+```
+
+## Run Backend Server
+
+```bash
 uvicorn app:app --reload
-unknown
-1 line, 24 characters
-Copy code
-unknown
-1 line, 24 characters
-Copy code
+```
 
 Backend will run on:
 
+```bash
 http://127.0.0.1:8000
-unknown
-1 line, 21 characters
-Copy code
-unknown
-1 line, 21 characters
-Copy code
+```
 
 API Documentation:
 
+```bash
 http://127.0.0.1:8000/docs
-unknown
-1 line, 26 characters
-Copy code
-unknown
-1 line, 26 characters
-Copy code
-3️⃣ Flutter App Setup
-Install Flutter Packages
+```
+
+---
+
+# 3️⃣ Flutter App Setup
+
+## Install Flutter Packages
+
+```bash
 cd mobile_app
 flutter pub get
-unknown
-2 lines, 29 characters
-Copy code
-unknown
-2 lines, 29 characters
-Copy code
-Run Flutter App
+```
+
+## Run Flutter App
+
+```bash
 flutter run
-unknown
-1 line, 11 characters
-Copy code
-unknown
-1 line, 11 characters
-Copy code
-🤖 OCR Workflow
-User uploads handwritten prescription image
-Image preprocessing using OpenCV
-OCR extraction using Tesseract / Vision GPT
-NLP correction of extracted text
-Structured medical text generation
-Integration with EMR system using FHIR API
-🔗 API Endpoints
-Method	Endpoint	Description
-POST	/extract_text	Extract handwritten text
-POST	/store_ocr_text	Store OCR text in EMR
-GET	/get_patient/{id}	Fetch patient details
-GET	/get_observations/{id}	Fetch EMR observations
-🔒 Security Features
-JWT Authentication
-Password Hashing using bcrypt
-Environment Variable Protection
-Secure API Communication
-📸 Screenshots
+```
+
+---
+
+# 🤖 OCR Workflow
+
+1. User uploads handwritten prescription image  
+2. Image preprocessing using OpenCV  
+3. OCR extraction using Tesseract / Vision GPT  
+4. NLP correction of extracted text  
+5. Structured medical text generation  
+6. Integration with EMR system using FHIR API  
+
+---
+
+# 🔗 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/extract_text` | Extract handwritten text |
+| POST | `/store_ocr_text` | Store OCR text in EMR |
+| GET | `/get_patient/{id}` | Fetch patient details |
+| GET | `/get_observations/{id}` | Fetch EMR observations |
+
+---
+
+# 🔒 Security Features
+
+- JWT Authentication  
+- Password Hashing using bcrypt  
+- Environment Variable Protection  
+- Secure API Communication  
+
+---
+
+# 📸 Screenshots
 
 Add screenshots of:
 
-Login Screen
-Upload Screen
-OCR Result Screen
-EMR Integration Screen
-📈 Expected Outcome
-Faster medical documentation
-Reduced manual data entry errors
-Improved accessibility of patient records
-Efficient EMR integration
-Better healthcare workflow automation
-👨‍💻 Team Members
-Name	Role
-Member 1	AI/ML Development
-Member 2	Backend Development
-Member 3	Flutter Mobile App
-Member 4	Testing & Documentation
-📚 Future Enhancements
-Multi-language handwriting recognition
-Voice-to-text integration
-Offline OCR support
-Cloud deployment
-AI-powered prescription validation
-📜 License
+- Login Screen  
+- Upload Screen  
+- OCR Result Screen  
+- EMR Integration Screen  
+
+---
+
+# 📈 Expected Outcome
+
+- Faster medical documentation  
+- Reduced manual data entry errors  
+- Improved accessibility of patient records  
+- Efficient EMR integration  
+- Better healthcare workflow automation  
+
+---
+
+# 👨‍💻 Team Members
+
+| Name | Role |
+|------|------|
+| Member 1 | AI/ML Development |
+| Member 2 | Backend Development |
+| Member 3 | Flutter Mobile App |
+| Member 4 | Testing & Documentation |
+
+---
+
+# 📚 Future Enhancements
+
+- Multi-language handwriting recognition  
+- Voice-to-text integration  
+- Offline OCR support  
+- Cloud deployment  
+- AI-powered prescription validation  
+
+---
+
+# 📜 License
 
 This project is developed for educational and research purposes.
 
-🙌 Acknowledgements
-FastAPI
+---
+
+# 🙌 Acknowledgements
+
+- FastAPI  
+- Flutter  
+- PyTorch  
+- Hugging Face Transformers  
+- Tesseract OCR  
+- FHIR Standards  
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
 Flutter
 PyTorch
 Hugging Face Transformers
