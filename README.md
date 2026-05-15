@@ -90,6 +90,9 @@ ai_ocr_emr_project/
 ├── README.md
 └── .env
 
+
+
+
 # ⚙️ Installation Guide
 
 ## 1️⃣ Clone Repository
